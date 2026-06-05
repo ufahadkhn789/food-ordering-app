@@ -1,0 +1,95 @@
+name: flutter_app
+description: A new Flutter application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Updated null-safe dependencies
+  cupertino_icons: ^1.0.5
+  carousel_slider: ^5.1.1   # Use this correct version
+  font_awesome_flutter: ^10.4.0
+  firebase_auth: ^6.1.2
+  firebase_core: ^4.2.1
+  cloud_firestore: ^6.1.0
+  provider: ^6.0.5
+  image_picker: ^1.0.7
+  firebase_storage: ^13.0.4
+  flutter_stripe: ^10.1.0
+  http: ^1.2.0
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/menus/ic_search_menu.png
+    - assets/images/menus/ic_account.png
+    - assets/images/menus/ic_cart.png
+    - assets/images/menus/ic_home.png
+    - assets/images/menus/ic_delete.png
+    - assets/images/menus/ic_near_by.png
+    - assets/images/menus/ic_credit_card.png
+    - assets/images/menus/ic_app_icon.png
+    - assets/images/menus/ic_food_express.png
+    - assets/images/menus/ic_app_icon_black.png
+    - assets/images/topmenu/ic_burger.png
+    - assets/images/topmenu/ic_cake.png
+    - assets/images/topmenu/ic_ice_cream.png
+    - assets/images/topmenu/ic_pasta.png
+    - assets/images/topmenu/ic_pizza.png
+    - assets/images/topmenu/ic_sushi.png
+    - assets/images/topmenu/ic_soft_drink.png
+    - assets/images/popular_foods/ic_popular_food_1.jpeg
+
+    - assets/images/popular_foods/ic_popular_food_3.jpeg
+    - assets/images/popular_foods/ic_popular_food_4.jpeg
+
+
+
+
+
+
+
+    - assets/images/bestfood/burger.jpeg
+    - assets/images/bestfood/pizza.jpeg
+    - assets/images/bestfood/salad.jpeg
+    - assets/images/bestfood/fries.jpeg
+    - assets/images/bestfood/zingerdeal.jpeg
+
+
+
+
+
+
+    - assets/images/restaurants/burger_king.jpeg
+    - assets/images/restaurants/pizza_hut.jpeg
+    - assets/images/restaurants/taco_bell.jpeg
+    - assets/images/restaurants/salad_corner.jpeg
+
+
+
+
+
+
+
+
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-Light.ttf
